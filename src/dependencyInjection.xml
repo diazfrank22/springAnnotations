@@ -24,7 +24,7 @@
 <bean id="secretarioEmpleado" class="dependency.injection.SecretarioEmpleado">
  <property name="informeNuevo" ref="miInforme"></property>
 <!--  <property name="emailSecretario" value="emailSecretario"></property> -->
-<!--  <property name="nombreSecretario" value="nombreSecretario"></property> -->
+<!--  <property name="nombreSecretario" value="nombreSecretario" scope="prototype"></property> -->
  <property name="emailSecretario" value="${emailSecretario}"></property>
  <property name="nombreSecretario" value="${nombreSecretario}"></property>
  

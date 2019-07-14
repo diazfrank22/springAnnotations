@@ -8,13 +8,7 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
-
 <bean id="directorEmpleado" class="inversion.of.control.DirectorEmpleado"></bean>
-
 <bean id="jefeEmpleado" class="inversion.of.control.JefeEmpleado"></bean>
-
 <bean id="secretarioEmpleado" class="inversion.of.control.SecretarioEmpleado"></bean>
-
-
-
 </beans>
