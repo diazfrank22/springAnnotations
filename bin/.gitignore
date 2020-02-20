@@ -1,2 +1,7 @@
+/config.properties
+/dependency/
+/dependencyInjection.xml
 /initDestroy.xml
+/inversion/
+/inversionOfControl.xml
 /method/

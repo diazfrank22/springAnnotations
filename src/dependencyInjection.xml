@@ -9,8 +9,8 @@
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
 <context:property-placeholder location="classpath:config.properties"/>
-<bean id="miInforme" class="dependency.injection.Informe">
-</bean>
+
+<bean id="miInforme" class="dependency.injection.Informe"></bean>
 
 <!--  DEPENDENCY INJECTION FOR CONTRUCTOR-->
 <bean id="directorEmpleado" class="dependency.injection.DirectorEmpleado">

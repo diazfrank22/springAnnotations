@@ -22,8 +22,7 @@ public class UsoEmpleado {
 		
 		System.out.println(objEmpleados2.getTareas());
 		System.out.println(objEmpleados2.getInforme());
-		
-		
+			
 		objContext.close();
 		
 		ClassPathXmlApplicationContext objContext1 = new ClassPathXmlApplicationContext("dependencyInjection.xml");
